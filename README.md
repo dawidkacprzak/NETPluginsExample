@@ -7,7 +7,7 @@
 + PluginLoader.Shared - Library contains only interface which is used as contract between app and plugins
 + ExamplePluginA - Example plugin which implements the contract
 
-**There is no need to use Shared projekt as project reference - ideally it should be pushed on nuget or forwarded to someone who's creating plugins as compiled library to get the contract
+**There is no need to use Shared project as project reference - ideally it should be pushed on nuget or forwarded to someone who's creating plugins as compiled library to get the contract
 
 Shared contract:
 ```CSharp
