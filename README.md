@@ -58,6 +58,6 @@ public class ExamplePluginA : IPlugin
             }
 ```
 
-/\ Main logic using reflection - Implementation of contract should be marked as **Exported** - after that we need just to 'get' the exported types from dll
+/\ Main logic using reflection - Implementation of contract should be marked as **Exported** - after that we need just to 'get' the exported types from dll,
 create instance and then just do what we want - for example put it in some container to use it later
 
