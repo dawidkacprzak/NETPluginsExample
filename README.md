@@ -1,8 +1,8 @@
-## h2Example how to load .dll's implemented contracts dynamically in .NET
-## h3This example can be used in software which requires flexibility or just plugins/mod loading in games
+## Example how to load .dll's implemented contracts dynamically in .NET
+## This example can be used in software which requires flexibility or just plugins/mod loading in games
 
 ---
-## h3 Project
+## Project
 + PluginLoader - sample application which loads plugins - eg. game or app
 + PluginLoader.Shared - Library contains only interface which is used as contract between app and plugins
 + ExamplePluginA - Example plugin which implements the contract
@@ -20,6 +20,19 @@ public interface IPlugin
 ```
 
 Just a simple interface /\
+
+```CSharp
+[Export(typeof(IPlugin))]
+public class ExamplePluginA : IPlugin
+{
+    public void ExecuteExample()
+    {
+        Console.WriteLine("Invoke - example plugin A");
+    }
+}
+```
+/\ Example plugin implementation - make sure the class is exported with corresponding contract
+
 
 ```CSharp
             var asmFile = Assembly.LoadFile(path);
