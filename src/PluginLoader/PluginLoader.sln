@@ -1,0 +1,34 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginLoader", "PluginLoader.csproj", "{FD40F624-61A3-480A-A4EC-FCB1B77FE3A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplePluginA", "..\ExamplePluginA\ExamplePluginA.csproj", "{43680191-4D6F-4CAD-A280-D68CBC41A3CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginLoader.Shared", "..\PluginLoader.Shared\PluginLoader.Shared.csproj", "{923CCCCD-F6B4-4E38-A228-D8FD56C86809}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD40F624-61A3-480A-A4EC-FCB1B77FE3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD40F624-61A3-480A-A4EC-FCB1B77FE3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD40F624-61A3-480A-A4EC-FCB1B77FE3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD40F624-61A3-480A-A4EC-FCB1B77FE3A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43680191-4D6F-4CAD-A280-D68CBC41A3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43680191-4D6F-4CAD-A280-D68CBC41A3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43680191-4D6F-4CAD-A280-D68CBC41A3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43680191-4D6F-4CAD-A280-D68CBC41A3CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{923CCCCD-F6B4-4E38-A228-D8FD56C86809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{923CCCCD-F6B4-4E38-A228-D8FD56C86809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{923CCCCD-F6B4-4E38-A228-D8FD56C86809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{923CCCCD-F6B4-4E38-A228-D8FD56C86809}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
